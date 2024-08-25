@@ -65,7 +65,7 @@ export default function Contacts() {
       <SectionHeading>Contact Me</SectionHeading>
       <p className="pb-6">
         You can <span className="font-medium">contact me</span> via the 
-        <span className="font-medium">following:</span>
+        <span className="font-medium">&nbsp;following:</span>
       </p>
       <ul className="flex flex-col justify-center h-full gap-6 text-lg text-gray-800">
         {contactsData.map((data, index) => (
