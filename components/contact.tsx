@@ -64,8 +64,8 @@ export default function Contacts() {
     <section className="max-w-[30rem] mb-10 text-center" id="contact" ref={ref}>
       <SectionHeading>Contact Me</SectionHeading>
       <p className="pb-6">
-        You can <span className="font-medium">contact me</span> via the
-        <span className="font-medium">following:</span>:
+        You can <span className="font-medium">contact me</span> via the 
+        <span className="font-medium">following:</span>
       </p>
       <ul className="flex flex-col justify-center h-full gap-6 text-lg text-gray-800">
         {contactsData.map((data, index) => (
